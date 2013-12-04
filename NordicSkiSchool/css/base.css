@@ -1,0 +1,170 @@
+
+body { 
+  background-color: #bbb;
+  border: 0;
+  margin: 0;
+  
+  background-image: url("../images/Linen-Tile.png");
+}
+
+a {
+  text-decoration: none;
+  color: #357CA3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.centered-body {
+  padding: 20px 20px;
+  width: 760px;  
+  background-image: url("../images/Canvas-Tile.png");
+  box-shadow: 5px 5px 30px #333;
+  -moz-box-shadow: 5px 5px 30px #333;
+  -webkit-box-shadow: 5px 5px 30px #333;
+  border-top: 1px solid #888;
+  min-height: 1200px;
+}
+
+div.centered-body { 
+  width: 656px;
+  
+  /* Center this element */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-bottom: 40px;
+  
+  padding: 72px;
+  
+  background-color: #ddd;
+  
+  font-family: "Helvetica Neue", "Helvetica", "Ariel";
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+
+div.centered-body, td {
+  margin-top: 0px;
+  font-family: "Helvetica Neue", "Helvetica", "Ariel";
+  font-weight: 500;
+  color: #444;
+}
+
+div.link-bar { 
+  width: 800px;
+  
+  /* Center this element */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  font-family: "Helvetica Neue", "Helvetica", "Ariel";
+  font-weight: 500;
+  color: #222;
+}
+
+div.link-bar-left {
+  text-align:left;
+  float: left;
+  padding-bottom:10px;
+}
+
+div.link-bar-right {
+  text-align: right;
+}
+
+div.link-bar-links {
+  text-align:right;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 30px;
+  text-shadow: #111 0.1em 0.1em 0.2em;
+}
+
+span.link-bar-link {
+  padding-left: 20px;
+}
+
+span.link-bar-link a {
+  font-size: 14px;
+  color: #ddd;
+  text-decoration: none;
+}
+
+span.link-bar-link a:hover {
+  color: #75BCE3;
+}
+
+span.the11ers-the {
+  font-family:"Times New Roman", Times, serif;
+  font-size: 14px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+span.the11ers-11 {
+  font-family:"Times New Roman", Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+span.the11ers-ers {
+  font-family:"Times New Roman", Times, serif;
+  font-size: 14px;
+  font-style: italic;
+  vertical-align: top;
+}
+
+div.centered {
+  width: 100%;
+  text-align: center;
+}
+
+div.back-link-spacer { 
+  margin-top: 52px;
+}
+
+a.back-link { 
+  font-family: "Helvetica Neue", "Helvetica", "Ariel";
+  font-size: 14px;
+}
+
+div.fb-like { 
+  vertical-align: top;
+}
+
+div.social-buttons { 
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+  margin-top: 64px;
+  clear: both;
+}
+
+span.social-button-like { 
+  margin-right: 21px;
+}
+
+span.social-button-tweet { 
+}
+
+span.social-button-follow {
+  margin-right: 30px;
+}
+
+div.back-button-inset { 
+  margin-left: -45px;
+}
+
+img.back-button { 
+  width: 309px;
+  height: 101px;
+}
+
+img { 
+  border: 0;  /* Needed to remove borders from images within anchor tags in IE8. */
+}
